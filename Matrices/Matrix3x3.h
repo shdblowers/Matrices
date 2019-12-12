@@ -1,8 +1,9 @@
 #pragma once
+
 class Matrix3x3
 {
 private:
-    int m[3][3] = { {0,0,0},{0,0,0},{0,0,0} };
+    int matrix[3][3] = { {0,0,0},{0,0,0},{0,0,0} };
 
 public:
     Matrix3x3() = default;
@@ -13,4 +14,3 @@ public:
     void multiplyRow(int row, int multiplier);
     void addOneRowToAnother(int addThisRow, int toThisRow);
 };
-
