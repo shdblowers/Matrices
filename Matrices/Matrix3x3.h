@@ -11,5 +11,6 @@ public:
     void interchange(int row1, int row2);
     void print();
     void multiplyRow(int row, int multiplier);
+    void addOneRowToAnother(int addThisRow, int toThisRow);
 };
 

@@ -58,3 +58,10 @@ void Matrix3x3::multiplyRow(int row, int multiplier)
 
     return;
 }
+
+void Matrix3x3::addOneRowToAnother(int addThisRow, int toThisRow)
+{
+    for (int i = 0; i < 3; i++) {
+        m[toThisRow][i] = m[addThisRow][i] + m[toThisRow][i];
+    }
+}

@@ -25,5 +25,10 @@ int main()
 
     m2.print();
 
+    // add row 0 to row 2
+    m2.addOneRowToAnother(0, 2);
+
+    m2.print();
+
     return 0;
 }
