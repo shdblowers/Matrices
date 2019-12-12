@@ -45,3 +45,16 @@ void Matrix3x3::print()
 
     cout << endl;
 }
+
+void Matrix3x3::multiplyRow(int row, int multiplier)
+{
+    if (row > 2 || row < 0) {
+        return;
+    }
+
+    for (int i = 0; i < 3; i++) {
+        m[row][i] = m[row][i] * multiplier;
+    }
+
+    return;
+}

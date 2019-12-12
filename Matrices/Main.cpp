@@ -15,7 +15,13 @@ int main()
 
     m2.print();
 
+    // swap rows 0 and 1
     m2.interchange(0, 1);
+
+    m2.print();
+
+    // multiply row 2 by 10
+    m2.multiplyRow(2, 10);
 
     m2.print();
 
