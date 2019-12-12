@@ -1,5 +1,6 @@
 // Matrices.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
+// This file is intended for debugging and testing out these classes.
 
 #include <iostream>
 
