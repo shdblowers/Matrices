@@ -1,6 +1,6 @@
 #pragma once
 
-class Matrix3x3
+struct Matrix3x3
 {
 private:
     int matrix[3][3] = { {0,0,0},{0,0,0},{0,0,0} };
